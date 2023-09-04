@@ -1,9 +1,9 @@
-const left = document.querySelector('.left')
-const right = document.querySelector('.right')
-const container = document.querySelector('.container')
+const izquierda = document.querySelector('.izquierda');
+const derecha = document.querySelector('.derecha');
+const contenedor = document.querySelector('.contenedor');
 
-left.addEventListener('mouseenter', () => container.classList.add('hover-left'))
-left.addEventListener('mouseleave', () => container.classList.remove('hover-left'))
+izquierda.addEventListener('mouseenter', () => contenedor.classList.add('hover-izquierda'));
+izquierda.addEventListener('mouseleave', () => contenedor.classList.remove('hover-izquierda'));
 
-right.addEventListener('mouseenter', () => container.classList.add('hover-right'))
-right.addEventListener('mouseleave', () => container.classList.remove('hover-right'))
+derecha.addEventListener('mouseenter', () => contenedor.classList.add('hover-derecha'));
+derecha.addEventListener('mouseleave', () => contenedor.classList.remove('hover-derecha'));
